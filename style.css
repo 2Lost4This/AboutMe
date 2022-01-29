@@ -3,19 +3,6 @@
     width: 250px;
     border-radius: 5px;
 }
-.adjust {
-    padding: 16px;
-}
-.animebox { 
-	background-color: honeydew;
-	transition:background 1s 
-}
-.animebox:hover {
-	background-color: cornflowerblue
-}
-.anime {
-background-color: cornflowerblue
-}
 .text-white {
     font-size: 16px;
     margin-top: 10px;
