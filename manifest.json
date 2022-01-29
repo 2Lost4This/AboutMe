@@ -9,7 +9,7 @@
             "sizes": "123x128" 
         } 
     ],
-    "start_url": "/", 
+    "start_url": "/AboutMe/", 
     "background_color": "#3367D6", 
     "display": "standalone", 
     "scope": "/", 
