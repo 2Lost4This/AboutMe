@@ -4,6 +4,10 @@
     border-radius: 5px;
 }
 
+html {
+background-color: #404EED 
+}
+
 .adjust {
     padding: 16px;
 }
