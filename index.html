@@ -2,7 +2,7 @@
 <html lang="en"> 
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
@@ -19,6 +19,7 @@
     <!--site Title-->   
     <title>2Lost4Discord#0001</title>
     <!-- Embed meta tags -->
+    <meta content="https://2Lost4This.github.io/AboutMe/" property="og:url" />
     <meta content="2Lost4Discord#0001" property="og:title" />
     <meta content="Oh wow, a mysterious website. I wonder what's going to be there?" property="og:description" />
     <meta content="assets/favicon.png" property="og:image" />
@@ -68,7 +69,17 @@
     </div>
     </center>
 </div>
-<script> if ('serviceWorker' in navigator) { window.addEventListener('load', () => { navigator.serviceWorker.register('./sw.js') }) } window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault() }) </script>
+    <script>
+      if ('serviceWorker' in navigator) {
+          window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/sw.js')
+          })
+        }
+        window.addEventListener('beforeinstallprompt', (e) => {
+                e.preventDefault()
+        })
+
+    </script>    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
